@@ -1,5 +1,5 @@
 # Object-Localization
-My final submitted model for Flipkart GRID Teach The Machines online competition. 
+Our submitted model for Flipkart GRID Teach The Machines online competition. 
 
 ## Approach
 We started by implementing a data loader which picks images of batch size 32, loads these images to the VRAM and pre-processing them by normalizing the images across RGB channels at every step. Also the image resolution of these images were changed from 640*480 to 480*480.
